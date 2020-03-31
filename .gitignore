@@ -1,0 +1,29 @@
+### Ignore specific files ###
+.DS_Store
+.idea/
+*.ld
+/Quellen/
+_notes/
+### Typo3 ###
+# Ignore extensions
+/typo3conf/ext/*
+!/typo3conf/ext/skom_sitepackage/
+# Ignore several upload and file directories.
+/fileadmin/user_upload/*
+!/fileadmin/user_upload/.gitkeep
+/fileadmin/_temp_/
+/fileadmin/_processed_/
+/uploads/
+# Ignore cache
+/typo3conf/temp_CACHED*
+/typo3conf/temp_fieldInfo.php
+/typo3conf/deprecation_*.log
+/typo3conf/ENABLE_INSTALL_TOOL
+/FIRST_INSTALL
+/typo3
+/typo3_src
+/typo3_src-*
+/Packages
+/index.php
+# Ignore temp directory.
+/typo3temp/
