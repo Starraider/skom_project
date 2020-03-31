@@ -6,8 +6,9 @@
 _notes/
 ### Typo3 ###
 # Ignore extensions
-/typo3conf/ext/*
-!/typo3conf/ext/skom_sitepackage/
+#/typo3conf/ext/*
+/typo3conf/ext/skom_sitepackage/
+!/typo3conf/ext/customer_sitepackage/
 # Ignore several upload and file directories.
 /fileadmin/user_upload/*
 !/fileadmin/user_upload/.gitkeep

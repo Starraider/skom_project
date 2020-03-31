@@ -1,3 +1,6 @@
 [submodule "typo3conf/ext/skom_sitepackage"]
 	path = typo3conf/ext/skom_sitepackage
 	url = https://github.com/Starraider/skom_sitepackage.git
+[submodule "typo3conf/ext/customer_sitepackage"]
+	path = typo3conf/ext/customer_sitepackage
+	url = https://github.com/Starraider/customer_sitepackage.git
