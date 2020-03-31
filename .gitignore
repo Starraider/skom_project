@@ -1,3 +1,7 @@
+### FTP Settings ###
+# ATTENTION: Uncomment this line in your project!!!
+#.vscode/
+
 ### Ignore specific files ###
 .DS_Store
 .idea/
